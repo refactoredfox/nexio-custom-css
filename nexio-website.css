@@ -1,0 +1,86 @@
+#paymentForm {
+    width: 480px;
+    padding: 20px 10px;
+}
+
+#paymentForm fieldset {
+    border: 0;
+    padding-left: 5px;
+}
+
+#paymentForm fieldset:first-child {
+    height: 175px;
+}
+
+#paymentForm fieldset legend {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#paymentForm .requiredField {
+    display: none;
+}
+
+#paymentForm .labelSeparator {
+    display: none;
+}
+
+#paymentForm .label {
+    font-size: 70%;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+#paymentForm .grey {
+    font-size: 85%;
+}
+
+#paymentForm .fieldSet .formRow {
+    margin-bottom: 15px;
+}
+
+#paymentForm .fieldSet .validation.error {
+    display: none;
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(3) {
+    position: absolute;
+    top: 115px;
+    left: 17px;
+    width: 200px;
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(4) {
+    position: absolute;
+    top: 115px;
+    left: 217px;
+    width: 200px;
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(4) select {
+    height: 30px;
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(4) select:nth-child(4) {
+    position: absolute;
+    left:0;
+    width:80px;
+
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(4) select:nth-child(5) {
+    position: absolute;
+    left:80px;
+    width:65px;
+}
+
+#paymentForm fieldSet:first-child .formRow:nth-child(5) {
+    position: absolute;
+    top: 115px;
+    left: 362px;
+    width: 85px;
+}
+
+#paymentForm #submitButton {
+    margin: -25px 12px;
+}
